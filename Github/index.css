@@ -13,8 +13,7 @@ section {
 }
 
 body {
-    background: url(./img/hero-logo.webp);
-    background-size: cover;
+    background: linear-gradient(270deg, black, rgb(28, 28, 28));
     color: white;
 }
 
@@ -55,9 +54,13 @@ h1 {
     text-align: center;
     font-size: 70px;
     position: absolute;
+    background: linear-gradient(270deg, white 70%, rgb(133, 133, 133));
     top: 47%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 p {
@@ -148,7 +151,7 @@ input {
     color: white;
     border-radius: 5px;
     border: 1px solid white;
-    top: 73%;
+    top: 74%;
     left: 53%;
     transform: translateX(-50%) translateY(-50%);
     margin: 0 10px;
@@ -173,7 +176,7 @@ input {
     color: black;
     border-radius: 5px;
     border: 1px solid white;
-    top: 73%;
+    top: 74%;
     left: 47%;
     transform: translateX(-50%) translateY(-50%);
     transition-duration: 0.3s;
