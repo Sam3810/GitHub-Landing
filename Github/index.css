@@ -198,7 +198,7 @@ input {
 
 @media (max-width: 1227px) {
     header {
-        visibility: hidden;
+        display: none;
     }
 
     h1 {
