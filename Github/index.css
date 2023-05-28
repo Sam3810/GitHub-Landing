@@ -97,7 +97,8 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    margin-top: 20%;
+    margin-bottom: 80px;
 }
 
 .comment {
@@ -190,7 +191,6 @@ h2 {
     flex-direction: row;
     font-size: 20px;
     color: rgb(170, 170, 170);
-    margin-top: -50px;
     flex-wrap: wrap;
 }
 
