@@ -378,9 +378,4 @@ input {
     .portada {
         top: 50px;
     }
-
-    .section2 {
-        min-height: 40vh;
-        margin-top: 10px;
-    }
 }
