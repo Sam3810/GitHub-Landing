@@ -304,9 +304,8 @@ input {
 }
 
 @media (max-width: 1227px) {
-    header {
+    .header2 {
         display: none;
-        flex-direction: column;
     }
 
     .comment > p {
@@ -360,5 +359,9 @@ input {
 
     #spotify {
         margin-left: 70px;
+    }
+
+    .header1 > a {
+        display: none;
     }
 }
