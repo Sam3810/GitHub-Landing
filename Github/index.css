@@ -14,6 +14,7 @@ body {
     background: linear-gradient(270deg, black, rgb(24, 24, 24));
     color: white;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 header {
@@ -110,7 +111,7 @@ span {
     flex-direction: column;
     margin-top: 50px;
     max-width: 650px;
-    min-width: 270px;
+    min-width: 280px;
 }
 
 .comment > p {
@@ -123,7 +124,7 @@ span {
     justify-content: start;
     align-items: center;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .autor img {
@@ -304,6 +305,11 @@ input {
 }
 
 @media (max-width: 1227px) {
+    header {
+        background-color: rgb(10, 10, 10);
+        box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.5);
+    }
+
     .header2 {
         display: none;
     }
