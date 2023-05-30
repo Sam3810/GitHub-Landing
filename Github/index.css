@@ -204,7 +204,7 @@ h2 {
 .footer > img {
     max-width: 75px;
     max-height: 50px;
-    margin: 0 35px;
+    margin: 0 10px;
 }
 
 input {
@@ -367,8 +367,8 @@ input {
         font-size: 30px;
     }
 
-    #spotify {
-        margin-left: 70px;
+    .footer > h4 {
+        width: 100%;
     }
 
     .header1 > a {
