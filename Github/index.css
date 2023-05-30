@@ -195,6 +195,8 @@ h2 {
     font-size: 20px;
     color: rgb(170, 170, 170);
     flex-wrap: wrap;
+    position: relative;
+    top: 80px;
 }
 
 .footer > h4 {
@@ -204,7 +206,7 @@ h2 {
 .footer > img {
     max-width: 75px;
     max-height: 50px;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 input {
@@ -297,7 +299,6 @@ input {
 .buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
 }
 
 ::-webkit-input-placeholder {
@@ -376,6 +377,10 @@ input {
     }
 
     .portada {
-        top: 50px;
+        top: 10px;
+    }
+
+    .footer {
+        top: 100px;
     }
 }
