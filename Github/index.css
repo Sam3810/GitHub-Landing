@@ -402,4 +402,8 @@ input {
     .footer {
         top: 100px;
     }
+
+    .comment > p {
+        max-width: 300px;
+    }
 }
