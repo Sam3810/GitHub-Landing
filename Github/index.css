@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('./Fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('./Fonts/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -15,6 +21,7 @@ body {
     color: white;
     scroll-behavior: smooth;
     margin: 0;
+    font-family: 'Mona Sans', sans-serif;
 }
 
 header {
@@ -110,7 +117,7 @@ span {
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    max-width: 650px;
+    max-width: 665px;
     min-width: 100px;
 }
 
