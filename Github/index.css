@@ -111,7 +111,7 @@ span {
     flex-direction: column;
     margin-top: 50px;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 100px;
 }
 
 .comment > p {
@@ -311,7 +311,15 @@ input {
         box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.5);
     }
 
-    .header2 {
+    .header1, .header2 {
+        margin: 0;
+    }
+
+    .header1 {
+        margin-right: 20px;
+    }
+
+    .header1 > a {
         display: none;
     }
 
@@ -344,9 +352,6 @@ input {
 }
 
 @media (max-width: 700px) {
-    .header1 {
-        margin: 5px auto;
-    }
 
     h1 {
         font-size: 40px;
