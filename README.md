@@ -1,6 +1,6 @@
 # GHP
 
-This is a page to practice, it took me about 4 hours or so
+Copy of GitHub Team's design for practice
 
 Link: https://githubpage.netlify.app/
 
