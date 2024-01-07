@@ -46,7 +46,7 @@ header {
 
 .header1 > img {
     max-width: 30px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 .section1 {
@@ -149,8 +149,9 @@ span {
 a {
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 0 10px 0 10px;
     transition-duration: 0.3s;
+    min-width: 120px;
 }
 
 a:hover {
@@ -239,6 +240,7 @@ input {
     transition-duration: 0.3s;
     border-radius: 5px;
     font-weight: 500;
+    width: 70px;
 }
 
 .sign-up {
@@ -250,6 +252,7 @@ input {
     transition-duration: 0.3s;
     box-shadow: 3px 3px 8px 0 rgb(31, 31, 31);
     font-weight: 500;
+    width: 70px;
 }
 
 .sign-in:hover {
