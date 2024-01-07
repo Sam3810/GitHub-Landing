@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>GitHub</title>
 </head>
@@ -29,7 +30,7 @@
         </header>
 
         <main>
-        <section class="portada">
+        <section class="portada" data-aos="fade-zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-sine">
 
                 <h1>Build, secure, ship. <br> All in one place.</h1>
                 <p class="p1">GitHub enterprise is the ultimate developer <br> experience platform with everything your team needs <br> to build and ship secure software at scale</p>
@@ -51,12 +52,12 @@
         </section>
 
     <section class="section2">
-        <div class="slidertext">
+        <div class="slidertext" data-aos="fade-right" data-aos-duration="2000">
             <h2>Build faster. <br> From commit to ship.</h2>
             <p class="p2">Automate your workflows, enable instant <br> communication and deploys in seconds.</p>
         </div>
 
-        <div class="slider">
+        <div class="slider" data-aos="fade-zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-sine">
             <img src="./img/image (2).png" alt="">
         </div>
         <p class="imginfo">Slash developer onboarding time <br> with <span> GitHub Codespaces</span></p>
@@ -74,9 +75,13 @@
             </div>
         </div>
     </section>
-
 </main>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
