@@ -151,7 +151,7 @@ a {
     color: white;
     padding: 0 10px 0 10px;
     transition-duration: 0.3s;
-    min-width: 120px;
+    width: max-content;
 }
 
 a:hover {
@@ -240,7 +240,7 @@ input {
     transition-duration: 0.3s;
     border-radius: 5px;
     font-weight: 500;
-    width: 70px;
+    width: max-content;
 }
 
 .sign-up {
@@ -252,7 +252,7 @@ input {
     transition-duration: 0.3s;
     box-shadow: 3px 3px 8px 0 rgb(31, 31, 31);
     font-weight: 500;
-    width: 70px;
+    width: max-content;
 }
 
 .sign-in:hover {
