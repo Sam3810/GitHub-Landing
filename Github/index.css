@@ -82,7 +82,7 @@ header {
     padding: 20px;
     border: 10px solid rgb(65, 65, 65);
     border-radius: 15px;
-    
+
 }
 
 .slider > img {
@@ -106,7 +106,8 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 90dvh;
+    min-height: 100dvh;
+    position: relative;
 }
 
 .comment {
@@ -176,6 +177,7 @@ h2 {
     margin: 0 0;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .p2 {
@@ -233,7 +235,7 @@ input {
     border: none;
     color: white;
     padding: 6px;
-    margin: 0 5px; 
+    margin: 0 5px;
     transition-duration: 0.3s;
     border-radius: 5px;
     font-weight: 500;
@@ -341,7 +343,7 @@ input {
     }
 
     .autor {
-        text-align: center;     
+        text-align: center;
         flex-direction: column;
         margin-top: 10px;
     }
@@ -393,15 +395,29 @@ input {
         display: none;
     }
 
-    .portada {
-        top: 10px;
-    }
-
     .footer {
         top: 100px;
     }
 
     .comment > p {
         max-width: 300px;
+    }
+}
+
+@media (max-height: 760px) {
+    .portada {
+        max-height: 20dvh;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .portada > p {
+        font-size: 20px;
+    }
+
+    .footer {
+        top: 30px;
     }
 }
