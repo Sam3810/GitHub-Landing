@@ -408,19 +408,29 @@ input {
 }
 
 @media (max-height: 760px) {
-    .portada {
-        max-height: 20dvh;
-    }
-
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .portada > p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .footer {
         top: 30px;
+    }
+}
+
+@media (max-height: 700px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .portada > p {
+        font-size: 10px;
+    }
+
+    .footer {
+        top: 10px;
     }
 }
